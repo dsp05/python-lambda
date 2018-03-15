@@ -28,6 +28,8 @@ from .helpers import timestamp
 
 ARN_PREFIXES = {
     'us-gov-west-1': 'aws-us-gov',
+    'cn-north-1': 'aws-cn',
+    'cn-northwest-1': 'aws-cn',
 }
 
 log = logging.getLogger(__name__)
